@@ -87,3 +87,33 @@ body {
   left: 0;
   transform: translate(-50%, -50%);
 }
+
+.colors {
+  margin-bottom: 1rem;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.red {
+  background-color: crimson;
+}
+
+.blue {
+  background-color: dodgerblue;
+}
+.green {
+  background-color: springgreen;
+}
+
+.black {
+  background-color: #1b1b1b;
+}
+
+.yellow {
+  background-color: yellow;
+}
