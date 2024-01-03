@@ -117,3 +117,10 @@ body {
 .yellow {
   background-color: yellow;
 }
+
+.price + p {
+  color: #424242;
+  margin-top: -1rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
