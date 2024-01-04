@@ -18,7 +18,7 @@ body {
   border: 4px solid #1b1b1b;
   margin: 1rem;
   max-width: 700px;
-  min-width: 500px;
+  min-width: 550px;
   margin: 0 auto;
   width: 80%;
   position: relative;
@@ -139,13 +139,22 @@ body {
   background-color: yellow;
 }
 
-img,
-.shipment-container,
-.details-container {
-  float: left;
-  width: 33%;
+img {
+  width: 100%;
 }
 
-.clear {
-  clear: both;
+.hoodie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoodie,
+.shipment-container,
+.details-container {
+  flex: 1 1 0;
+}
+.flex-container {
+  display: flex;
+  gap: 1rem;
 }
