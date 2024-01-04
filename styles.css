@@ -98,24 +98,21 @@ body {
 
 .price {
   font-size: 1rem;
-  float: left;
+  /* float: left; */
 }
 
 .price + p {
   color: #706f6f;
-  margin-top: 1.2rem;
-  margin-right: 1.2rem;
   text-transform: uppercase;
   font-size: 0.75rem;
-  float: right;
+  /* float: right; */
   font-weight: bold;
 }
-.shipment::after {
-  clear: both;
-  display: block;
-  content: "";
+.shipment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .colors {
   margin-bottom: 1rem;
 }
