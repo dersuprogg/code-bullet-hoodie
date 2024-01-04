@@ -37,14 +37,11 @@ body {
   margin: 1rem 0;
 }
 
-.product > p {
-  margin-bottom: 1rem;
-}
-
 .product a:link,
 .product a:visited {
   color: #1b1b1b;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   display: inline-block;
 }
 
@@ -98,14 +95,12 @@ body {
 
 .price {
   font-size: 1rem;
-  /* float: left; */
 }
 
 .price + p {
   color: #706f6f;
   text-transform: uppercase;
   font-size: 0.75rem;
-  /* float: right; */
   font-weight: bold;
 }
 .shipment {
@@ -113,15 +108,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .colors {
   margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .box {
   width: 20px;
   height: 20px;
-  display: inline-block;
-  margin-right: 0.5rem;
 }
 
 .red {
