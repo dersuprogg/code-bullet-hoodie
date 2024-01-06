@@ -187,6 +187,15 @@ img {
     width: 70%;
     margin: 0 auto;
   }
+
+  .product::after {
+    transform: translate(35%, -20%) rotate(45deg);
+    left: unset;
+    right: 0;
+    width: 5rem;
+    text-align: center;
+    letter-spacing: 6px;
+  }
   /* 
   .details-container {
     grid-row: 1;
